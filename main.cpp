@@ -34,6 +34,8 @@ int main()
 	check(map, xpos, ypos);
 
 	running(map, xpos, ypos);
-	for (int i = 0; i < map.size(); i++)
-		cout << map[i] << endl;
+	draw_map(map);
+
+
+	return 0;
 }

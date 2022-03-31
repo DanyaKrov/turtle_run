@@ -26,10 +26,16 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Running.cpp">
+    <ClCompile Include="str_to_int.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="str_to_int.cpp">
+    <ClCompile Include="draw_map.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="print_vector.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="running.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
