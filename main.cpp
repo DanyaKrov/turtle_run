@@ -32,4 +32,6 @@ int main()
 	vector<string> map;
 	read_file(map, xpos, ypos, "input.txt");
 	check(map, xpos, ypos);
+
+	running(map, xpos, ypos);
 }

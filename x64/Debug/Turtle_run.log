@@ -1,0 +1,10 @@
+﻿  check.cpp
+  main.cpp
+  Running.cpp
+  str_to_int.cpp
+C:\Users\uchenik\Desktop\Turtle_run\Turtle_run\str_to_int.cpp(49,50): warning C4804: >=: небезопасное использование типа "bool" в операции
+C:\Users\uchenik\Desktop\Turtle_run\Turtle_run\str_to_int.cpp(57,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\uchenik\Desktop\Turtle_run\Turtle_run\str_to_int.cpp(57,28): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\uchenik\Desktop\Turtle_run\Turtle_run\str_to_int.cpp(60,36): warning C4804: >=: небезопасное использование типа "bool" в операции
+  Создание кода...
+  Turtle_run.vcxproj -> C:\Users\uchenik\Desktop\Turtle_run\Turtle_run\x64\Debug\Turtle_run.exe
