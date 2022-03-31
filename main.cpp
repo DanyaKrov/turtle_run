@@ -12,10 +12,10 @@ void read_file(vector <string>& map, int& xpos, int& ypos, string path)
 			if (number < -60000) {
 				map.push_back(str);
 			}
-			else if (xpos == -101)
-				xpos = number;
 			else if (ypos == -101)
 				ypos = number;
+			else if (xpos == -101)
+				xpos = number;
 		}
 	}
 	else {
@@ -34,4 +34,6 @@ int main()
 	check(map, xpos, ypos);
 
 	running(map, xpos, ypos);
+	for (int i = 0; i < map.size(); i++)
+		cout << map[i] << endl;
 }
