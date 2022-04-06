@@ -1,7 +1,7 @@
 #include "Turtle.h"
 
 
-void running(vector<string> map, int xpos, int ypos) {
+void running(vector<string> &map, int xpos, int ypos) {
 	map[ypos][xpos] = 'x';
 	if ((xpos == 0 || ypos == 0) || (xpos == map[0].size() - 1 || ypos == map.size() - 1) && (map[ypos][xpos] == ' ')) {
 		print_vector(map);

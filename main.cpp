@@ -25,12 +25,17 @@ void read_file(vector <string>& map, int& xpos, int& ypos, string path)
 	file.close();
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 	int xpos = -101, ypos = -101;
-	string mode = "fast";
+	string mode = "fast"; //mode of showing way of turtle. Unfinished(
 	vector<string> map;
-	read_file(map, xpos, ypos, "l3.txt");
+	read_file(map, xpos, ypos, "input.txt"); //reading file 
+
+	//getting out of labyrint
 	running(map, xpos, ypos);
+
+	//draw
+	draw_map(map);
 	return 0;
 }
