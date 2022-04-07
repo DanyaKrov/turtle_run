@@ -11,7 +11,6 @@ using namespace std;
 //additional
 int len(string str);
 int str_to_int(string str);
-void check(vector <string>& map, int xpos, int ypos);
 void print_vector(const vector <string>& vector1);
 
 

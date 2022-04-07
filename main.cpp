@@ -30,10 +30,14 @@ int main(int argc, char* argv[])
 	int xpos = -101, ypos = -101;
 	string mode = "fast"; //mode of showing way of turtle. Unfinished(
 	vector<string> map;
-	read_file(map, xpos, ypos, "input.txt"); //reading file 
+	read_file(map, xpos, ypos, "l65.txt"); //reading file 
 
+	map[ypos][xpos] = 's';
 	//getting out of labyrint
 	running(map, xpos, ypos);
+
+	//print
+	print_vector(map);
 
 	//draw
 	draw_map(map);

@@ -16,6 +16,9 @@ void draw_map(vector<string> map) {
                 if (map[i][j] == '*') {
                     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
                 }
+                else if (map[i][j] == 's') {
+                    SDL_SetRenderDrawColor(renderer, 255, 255, 0, 0);
+                }
                 else if (map[i][j] == 'x')
                     SDL_SetRenderDrawColor(renderer, 255, 0, 255, 255);
                 for (int a = 1000 / map.size() * i; a < 1000 / map.size() * (i + 1); a++) {
